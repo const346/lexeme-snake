@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="60" height="40" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="BaseTileSet" tilewidth="32" tileheight="32" spacing="4" margin="2">
+  <image source="tileset.png" width="256" height="128"/>
+  <tile id="0">
+   <properties>
+    <property name="collision" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="collision" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="collision" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="collision" value="true"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="collision" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="collision" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="collision" value="true"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="collision" value="true"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="collision" value="true"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="collision" value="true"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="collision" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="collision" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="collision" value="true"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="collision" value="true"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="collision" value="true"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="collision" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="TiledLayer" width="60" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztmNsOwyAIht2hSbsu6ba+/7tOk+1mQRRSFBwX/1Xj4UMKvy4hhMU1vK5RD2FNjdaB1v3lvUXtwpobrQOt67zOC+kUdWF8s8qL7bnEY403nV+qr8/M9y1qRc54Q8Zq5P2ezwtRrzN0Xr28UJ0r1cUzQXdlvNAYbJ5UB1r4q+0zFot7qmcrI/4U3lb5XNrHHHj+eFLMi/UUbr+h5nNLXglBcRqZN7fHmjqA+VdrvDW1oOb/scL7b/nsvHp4qR6v5BUhD6KJl+rxsB6e8yDcOHP9s8Z8rolzr/dJCd5e+ey8zjsSr0Q/ot6jc3Na6UfUu3RuTs9nfbxHvlVb4D06V5y3/76cV46X2ussCbofucbUG4fLkPA=
+  </data>
+ </layer>
+</map>

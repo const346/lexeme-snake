@@ -1,0 +1,188 @@
+
+base.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+buxtonSketch18
+  rotate: false
+  xy: 1, 127
+  size: 256, 128
+  orig: 256, 128
+  offset: 0, 0
+  index: -1
+buxtonSketch24
+  rotate: false
+  xy: 259, 127
+  size: 256, 128
+  orig: 256, 128
+  offset: 0, 0
+  index: -1
+lexemeSnake(title)
+  rotate: false
+  xy: 1, 45
+  size: 300, 80
+  orig: 300, 80
+  offset: 0, 0
+  index: -1
+touchpad-fon
+  rotate: false
+  xy: 517, 115
+  size: 140, 140
+  orig: 140, 140
+  offset: 0, 0
+  index: -1
+selectTopic(title)
+  rotate: false
+  xy: 1, 4
+  size: 200, 39
+  orig: 200, 39
+  offset: 0, 0
+  index: -1
+help(title)
+  rotate: false
+  xy: 203, 1
+  size: 77, 42
+  orig: 77, 42
+  offset: 0, 0
+  index: -1
+records(title)
+  rotate: false
+  xy: 659, 216
+  size: 143, 39
+  orig: 143, 39
+  offset: 0, 0
+  index: -1
+about(title)
+  rotate: false
+  xy: 303, 84
+  size: 105, 41
+  orig: 105, 41
+  offset: 0, 0
+  index: -1
+back(btn)
+  rotate: false
+  xy: 282, 1
+  size: 74, 42
+  orig: 74, 42
+  offset: 0, 0
+  index: -1
+next(btn)
+  rotate: false
+  xy: 659, 173
+  size: 67, 41
+  orig: 67, 41
+  offset: 0, 0
+  index: -1
+backMenu(btn)
+  rotate: false
+  xy: 659, 121
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+tail
+  rotate: false
+  xy: 804, 223
+  size: 64, 32
+  orig: 64, 32
+  offset: 0, 0
+  index: -1
+continue(btn)
+  rotate: false
+  xy: 410, 75
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+continue(btnDisable)
+  rotate: false
+  xy: 462, 75
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+mute(btn)
+  rotate: false
+  xy: 728, 164
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+replayTask(btn)
+  rotate: false
+  xy: 514, 63
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+replayTopic(btn)
+  rotate: false
+  xy: 566, 63
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+sound(btn)
+  rotate: false
+  xy: 618, 63
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 870, 223
+  size: 51, 32
+  orig: 51, 32
+  offset: 0, 0
+  index: -1
+particle12
+  rotate: false
+  xy: 303, 50
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+touchpad-knob
+  rotate: false
+  xy: 923, 223
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+apple
+  rotate: false
+  xy: 337, 52
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+panel(shadow)
+  rotate: false
+  xy: 780, 194
+  size: 20, 20
+  split: 8, 11, 8, 11
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+scrollpane-knob
+  rotate: false
+  xy: 711, 165
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+scrollpane-fon
+  rotate: false
+  xy: 957, 249
+  size: 2, 6
+  orig: 2, 6
+  offset: 0, 0
+  index: -1
+white
+  rotate: false
+  xy: 1, 1
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1

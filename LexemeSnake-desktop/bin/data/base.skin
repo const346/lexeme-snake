@@ -1,0 +1,173 @@
+{
+	com.badlogic.gdx.graphics.g2d.BitmapFont: 
+	{ 
+		defaultFont: { file:  buxtonSketch18.fnt },
+		titleFont: { file:  buxtonSketch24.fnt }
+	},
+	com.badlogic.gdx.graphics.Color: 
+	{
+		black:		{ a: 1, b: 0,	g: 0,	r: 0 },	
+		white:		{ a: 1, b: 1,	g: 1,	r: 1 },	
+		green:		{ a: 1, b: 0,	g: 1,	r: 0 },	
+		red:		{ a: 1, b: 0,	g: 0,	r: 1 },			
+		blue:		{ a: 1, b: 1,	g: 0,	r: 0 },
+		navy:		{ a: 1, b: 0.7, g: 0,	r: 0 },	
+		gray:		{ a: 1, b: 0.5, g: 0.5, r: 0.5},
+		silver:		{ a: 1, b: 0.75,g: 1.75,r: 0.75},
+		aqua:		{ a: 1, b: 1,	g: 1,	r: 0 },	
+		fuchsia:	{ a: 1, b: 1,	g: 0,	r: 1 },	
+		teal:		{ a: 1, b: 0,	g: 0.5, r: 0.5 },
+		maroon:		{ a: 1, b: 0,	g: 0,	r: 0.5 },	
+		yellow:		{ a: 1, b: 1,	g: 1,	r: 0 },	
+		purple:		{ a: 1, b: 0.5, g: 0,	r: 0.5 },
+		olive:		{ a: 1, b: 0,	g: 0.5, r: 0.5 } 
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedDrawable: 
+	{
+		dialogDim: 
+		{
+			name: white,
+			color: { r: 0, g: 0, b: 0, a: 0.8 }
+		},
+		tintedTableUp: 
+		{
+			name: white,
+			color: { r: 0.80, g: 1.00, b: 0.80, a: 0.90 }
+		},
+		textCursor: 
+		{
+			name: white,
+			color: { r: 1.0, g: 1.0, b: 1.0, a: 1.0 }
+		},
+		selection: 
+		{
+			name: white,
+			color: { r: 0.0, g: 0.0, b: 0.0, a: 1.0 }
+		}
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: 
+	{
+		default:
+		{
+			selection: selection, 
+			background: dialogDim, 
+			font: defaultFont, 
+			fontColor: white, 
+			cursor: textCursor 
+		}
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: 
+	{
+		default: 
+		{ 
+			vScroll: scrollpane-fon, 
+			hScrollKnob: scrollpane-knob, 
+			background: panel(shadow), 
+			hScroll: scrollpane-fon, 
+			vScrollKnob: scrollpane-knob
+		}
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.Touchpad$TouchpadStyle: 
+	{
+		default: 
+		{ 
+			background: touchpad-fon,
+			knob: touchpad-knob
+		}
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: 
+	{
+		default:
+		{ 
+			font: defaultFont, 
+			fontColor:  black
+		},
+		answer:
+		{ 
+			font: defaultFont, 
+			fontColor:  blue
+		},
+		title:
+		{ 
+			font: titleFont, 
+			fontColor: { r: 0.33, g: 0.33, b: 0.32, a: 1 }
+		},
+		flash:
+		{ 
+			font: titleFont, 
+			fontColor:  white
+		}
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle:
+	{
+		default:
+		{
+			titleFont: defaultFont,
+			titleFontColor: black,
+			background: panel(shadow)
+		},
+		dialog:
+		{
+			titleFont: defaultFont,
+			titleFontColor: black,
+			background: panel(shadow),
+			stageBackground: dialogDim
+		}
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle:
+	{
+		default:
+		{
+			font: titleFont, 
+			fontColor:		{ r: 0.33, g: 0.33, b: 0.32, a: 1 },
+			overFontColor:	black,
+			downFontColor: 	black
+		}
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.ImageButton$ImageButtonStyle:
+	{
+		soundButton:
+		{
+			down: sound(btn),
+			checked: mute(btn),
+			up: sound(btn)
+		},
+		backMenuButton:
+		{
+			down: backMenu(btn),
+			up: backMenu(btn),
+			checked: backMenu(btn)
+		},
+		replayTaskButton:
+		{
+			down: replayTask(btn),
+			checked: replayTask(btn),
+			up: replayTask(btn)
+		},
+		continueButton:
+		{
+			down: continue(btn),
+			checked: continue(btn),
+			up: continue(btn),
+			disabled: continue(btnDisable)
+		},
+		replayTopicButton:
+		{
+			down: replayTopic(btn),
+			checked: replayTopic(btn),
+			up: replayTopic(btn)
+		},
+		backButton:
+		{
+			down: back(btn),
+			checked: back(btn),
+			up: back(btn)
+		},
+		nextButton:
+		{
+			down: next(btn),
+			checked: next(btn),
+			up: next(btn)
+		}
+	}
+}

@@ -1,0 +1,14 @@
+Version: 0.01
+
+Author: Кравченко А.А.
+Group: ФЭВТ-3С.
+
+Icons:
+http://www.brankic1979.com
+Sounds and background music:
+http://opengameart.org
+
+Editor tiles:
+http://www.mapeditor.org
+Framework:
+http://libgdx.badlogicgames.com

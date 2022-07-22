@@ -1,0 +1,164 @@
+/LexemeSnake/src/com/lexemesnake/world/draw/WorldRenderer.java
+/LexemeSnake/src/com/lexemesnake/world/draw/DrawableBatch.java
+/LexemeSnake/src/com/lexemesnake/world/draw/Camera2D.java
+/LexemeSnake/src/com/lexemesnake/world/World.java
+/LexemeSnake/src/com/lexemesnake/world/Snake.java
+/LexemeSnake/src/com/lexemesnake/world/Item.java
+/LexemeSnake/src/com/lexemesnake/utils/Utils.java
+/LexemeSnake/src/com/lexemesnake/utils/TileLayerOverlap.java
+/LexemeSnake/src/com/lexemesnake/ui/Page.java
+/LexemeSnake/src/com/lexemesnake/ui/MenuUI.java
+/LexemeSnake/src/com/lexemesnake/ui/LevelUI.java
+/LexemeSnake/src/com/lexemesnake/ui/BaseUI.java
+/LexemeSnake/src/com/lexemesnake/course/Topic.java
+/LexemeSnake/src/com/lexemesnake/course/Task.java
+/LexemeSnake/src/com/lexemesnake/course/Course.java
+/LexemeSnake/src/com/lexemesnake/SnakeController.java
+/LexemeSnake/src/com/lexemesnake/Base.java
+/LexemeSnake/src/Base.gwt.xml
+/LexemeSnake/source_data/source(psd)/window(shadow).psd
+/LexemeSnake/source_data/source(psd)/touchpad-knob.psd
+/LexemeSnake/source_data/source(psd)/touchpad-fon.psd
+/LexemeSnake/source_data/source(psd)/themaMenu2.psd
+/LexemeSnake/source_data/source(psd)/themaMenu.psd
+/LexemeSnake/source_data/source(psd)/tail.psd
+/LexemeSnake/source_data/source(psd)/particle.psd
+/LexemeSnake/source_data/source(psd)/panel2.9.psd
+/LexemeSnake/source_data/source(psd)/panel.9.psd
+/LexemeSnake/source_data/source(psd)/head2.psd
+/LexemeSnake/source_data/source(psd)/head.psd
+/LexemeSnake/source_data/source(psd)/head(зеркально).psd
+/LexemeSnake/source_data/source(psd)/buttons.psd
+/LexemeSnake/source_data/source(psd)/brankic1979-icon-set.psd
+/LexemeSnake/source_data/particles/particles.png
+/LexemeSnake/source_data/particles/particle9.png
+/LexemeSnake/source_data/particles/particle8.png
+/LexemeSnake/source_data/particles/particle7.png
+/LexemeSnake/source_data/particles/particle6.png
+/LexemeSnake/source_data/particles/particle5.png
+/LexemeSnake/source_data/particles/particle4.png
+/LexemeSnake/source_data/particles/particle3.png
+/LexemeSnake/source_data/particles/particle2.png
+/LexemeSnake/source_data/particles/particle16.png
+/LexemeSnake/source_data/particles/particle15.png
+/LexemeSnake/source_data/particles/particle14.png
+/LexemeSnake/source_data/particles/particle13.png
+/LexemeSnake/source_data/particles/particle12.png
+/LexemeSnake/source_data/particles/particle11.png
+/LexemeSnake/source_data/particles/particle10.png
+/LexemeSnake/source_data/particles/particle1.png
+/LexemeSnake/source_data/old packed/ui/sound.png
+/LexemeSnake/source_data/old packed/ui/replayTopic.png
+/LexemeSnake/source_data/old packed/ui/replayTask.png
+/LexemeSnake/source_data/old packed/ui/records.png
+/LexemeSnake/source_data/old packed/ui/options.png
+/LexemeSnake/source_data/old packed/ui/mute.png
+/LexemeSnake/source_data/old packed/ui/help.png
+/LexemeSnake/source_data/old packed/ui/continue.png
+/LexemeSnake/source_data/old packed/ui/continue(disable).png
+/LexemeSnake/source_data/old packed/ui/backMenu.png
+/LexemeSnake/source_data/old packed/ui/about.png
+/LexemeSnake/source_data/old packed/touchpad-knob.png
+/LexemeSnake/source_data/old packed/touchpad-fon.png
+/LexemeSnake/source_data/old packed/token.png
+/LexemeSnake/source_data/old packed/to-top.png
+/LexemeSnake/source_data/old packed/sound.png
+/LexemeSnake/source_data/old packed/sound-mute.png
+/LexemeSnake/source_data/old packed/replay.png
+/LexemeSnake/source_data/old packed/panel(shadow).9.png
+/LexemeSnake/source_data/old packed/menu.png
+/LexemeSnake/source_data/old packed/continue.png
+/LexemeSnake/source_data/old packed/continue(disable).png
+/LexemeSnake/source_data/not-packed-textures/white.png
+/LexemeSnake/source_data/not-packed-textures/touchpad-knob.png
+/LexemeSnake/source_data/not-packed-textures/touchpad-fon.png
+/LexemeSnake/source_data/not-packed-textures/tail.png
+/LexemeSnake/source_data/not-packed-textures/sound(btn).png
+/LexemeSnake/source_data/not-packed-textures/selectTopic(title).png
+/LexemeSnake/source_data/not-packed-textures/scrollpane-knob.png
+/LexemeSnake/source_data/not-packed-textures/scrollpane-fon.png
+/LexemeSnake/source_data/not-packed-textures/replayTopic(btn).png
+/LexemeSnake/source_data/not-packed-textures/replayTask(btn).png
+/LexemeSnake/source_data/not-packed-textures/records(title).png
+/LexemeSnake/source_data/not-packed-textures/particle12.png
+/LexemeSnake/source_data/not-packed-textures/panel(shadow).9.png
+/LexemeSnake/source_data/not-packed-textures/pack.proj
+/LexemeSnake/source_data/not-packed-textures/next(btn).png
+/LexemeSnake/source_data/not-packed-textures/mute(btn).png
+/LexemeSnake/source_data/not-packed-textures/lexemeSnake(title).png
+/LexemeSnake/source_data/not-packed-textures/help(title).png
+/LexemeSnake/source_data/not-packed-textures/head.png
+/LexemeSnake/source_data/not-packed-textures/gdx-texturepacker.jar
+/LexemeSnake/source_data/not-packed-textures/continue(btnDisable).png
+/LexemeSnake/source_data/not-packed-textures/continue(btn).png
+/LexemeSnake/source_data/not-packed-textures/buxtonSketch24.png
+/LexemeSnake/source_data/not-packed-textures/buxtonSketch18.png
+/LexemeSnake/source_data/not-packed-textures/backMenu(btn).png
+/LexemeSnake/source_data/not-packed-textures/back(btn).png
+/LexemeSnake/source_data/not-packed-textures/apple.png
+/LexemeSnake/source_data/not-packed-textures/about(title).png
+/LexemeSnake/source_data/fonts/symbols.txt
+/LexemeSnake/source_data/fonts/hiero.jar
+/LexemeSnake/source_data/fonts/buxtonSketch24.png
+/LexemeSnake/source_data/fonts/buxtonSketch24.fnt
+/LexemeSnake/source_data/fonts/buxtonSketch18.png
+/LexemeSnake/source_data/fonts/buxtonSketch18.fnt
+/LexemeSnake/readme.txt
+/LexemeSnake/libs/gdx.jar
+/LexemeSnake/libs/gdx-sources.jar
+/LexemeSnake/libs/commons-lang3-3.3.2.jar
+/LexemeSnake/libs/commons-lang3-3.3.2-javadoc.jar
+/LexemeSnake/bin/com/lexemesnake/world/draw/WorldRenderer.class
+/LexemeSnake/bin/com/lexemesnake/world/draw/DrawableBatch.class
+/LexemeSnake/bin/com/lexemesnake/world/draw/Camera2D.class
+/LexemeSnake/bin/com/lexemesnake/world/World.class
+/LexemeSnake/bin/com/lexemesnake/world/World$IListenerTookItem.class
+/LexemeSnake/bin/com/lexemesnake/world/World$IListenerHitBarrier.class
+/LexemeSnake/bin/com/lexemesnake/world/World$1.class
+/LexemeSnake/bin/com/lexemesnake/world/Snake.class
+/LexemeSnake/bin/com/lexemesnake/world/Snake$Bone.class
+/LexemeSnake/bin/com/lexemesnake/world/Item.class
+/LexemeSnake/bin/com/lexemesnake/world/Item$ItemStyle.class
+/LexemeSnake/bin/com/lexemesnake/utils/Utils.class
+/LexemeSnake/bin/com/lexemesnake/utils/TileLayerOverlap.class
+/LexemeSnake/bin/com/lexemesnake/utils/TileLayerOverlap$CellFilter.class
+/LexemeSnake/bin/com/lexemesnake/ui/Page.class
+/LexemeSnake/bin/com/lexemesnake/ui/Page$ShowListener.class
+/LexemeSnake/bin/com/lexemesnake/ui/MenuUI.class
+/LexemeSnake/bin/com/lexemesnake/ui/MenuUI$SelectTopicPage.class
+/LexemeSnake/bin/com/lexemesnake/ui/MenuUI$SelectTopicPage$SelectedListener.class
+/LexemeSnake/bin/com/lexemesnake/ui/MenuUI$SelectTopicPage$1.class
+/LexemeSnake/bin/com/lexemesnake/ui/MenuUI$RecordsPage.class
+/LexemeSnake/bin/com/lexemesnake/ui/MenuUI$RecordsPage$RecordRow.class
+/LexemeSnake/bin/com/lexemesnake/ui/MenuUI$MainPage.class
+/LexemeSnake/bin/com/lexemesnake/ui/MenuUI$HelpPage.class
+/LexemeSnake/bin/com/lexemesnake/ui/MenuUI$AboutPage.class
+/LexemeSnake/bin/com/lexemesnake/ui/MenuUI$2.class
+/LexemeSnake/bin/com/lexemesnake/ui/MenuUI$1.class
+/LexemeSnake/bin/com/lexemesnake/ui/LevelUI.class
+/LexemeSnake/bin/com/lexemesnake/ui/LevelUI$WinDialog.class
+/LexemeSnake/bin/com/lexemesnake/ui/LevelUI$NewRecordDialog.class
+/LexemeSnake/bin/com/lexemesnake/ui/LevelUI$LoseDialog.class
+/LexemeSnake/bin/com/lexemesnake/ui/BaseUI.class
+/LexemeSnake/bin/com/lexemesnake/course/Topic.class
+/LexemeSnake/bin/com/lexemesnake/course/Task.class
+/LexemeSnake/bin/com/lexemesnake/course/Task$TaskState.class
+/LexemeSnake/bin/com/lexemesnake/course/Course.class
+/LexemeSnake/bin/com/lexemesnake/SnakeController.class
+/LexemeSnake/bin/com/lexemesnake/Base.class
+/LexemeSnake/bin/com/lexemesnake/Base$9.class
+/LexemeSnake/bin/com/lexemesnake/Base$8.class
+/LexemeSnake/bin/com/lexemesnake/Base$7.class
+/LexemeSnake/bin/com/lexemesnake/Base$6.class
+/LexemeSnake/bin/com/lexemesnake/Base$5.class
+/LexemeSnake/bin/com/lexemesnake/Base$4.class
+/LexemeSnake/bin/com/lexemesnake/Base$3.class
+/LexemeSnake/bin/com/lexemesnake/Base$2.class
+/LexemeSnake/bin/com/lexemesnake/Base$11.class
+/LexemeSnake/bin/com/lexemesnake/Base$10.class
+/LexemeSnake/bin/com/lexemesnake/Base$1.class
+/LexemeSnake/bin/Base.gwt.xml
+/LexemeSnake/.settings/org.eclipse.jdt.ui.prefs
+/LexemeSnake/.settings/org.eclipse.jdt.core.prefs
+/LexemeSnake/.project
+/LexemeSnake/.classpath
